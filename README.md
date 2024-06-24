@@ -5,7 +5,7 @@
 # hebei-iptv
 河北电信IPTV组播源    内容基于0313，理论通用
 
-2024/03/26更新，新增3个凤凰台，都是标清的
+2024/06/09更新，新增cctv16
  <details>
   <summary>以下为代理链接</summary>
  
@@ -64,7 +64,7 @@ msd_lite的格式为http://路由器ip:端口/rtp/组播地址
 
 - **option60 Vendor Class：** `HEITV`
 - **option12 host name：** `机顶盒的STBID`
-
+- **额外认证参数** option sendopts 'x7d:XXXXXXX…..' 十六进制7d表示125 xxxx是发送十六进制的加密数据
 - **河北电信机顶盒操作码** `1301`
 
 - **itv密码** `118114`
